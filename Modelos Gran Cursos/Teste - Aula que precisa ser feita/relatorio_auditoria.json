@@ -1,0 +1,1278 @@
+{
+  "status": "FALHOU (201 divergências)",
+  "total_divergencias": 201,
+  "divergencias": [
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.bordas.bottom.cor",
+      "amostra": "auto",
+      "gerado": "auto",
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.bordas.bottom.espaco",
+      "amostra": "1",
+      "gerado": "4",
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.bordas.bottom.estilo",
+      "amostra": "single",
+      "gerado": "single",
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.bordas.bottom.largura_pt",
+      "amostra": 1.5,
+      "gerado": 1.5,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_corpo.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_corpo.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_corpo.negrito",
+      "amostra": false,
+      "gerado": true,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_corpo.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_rotulo.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_rotulo.fonte",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_rotulo.maiusculas",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_rotulo.negrito",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.formato_rotulo.tamanho_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.fundo_cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "caixas_destaque.sem_rotulo.quantidade",
+      "amostra": 7,
+      "gerado": 11,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.amostras",
+      "amostra": [
+        "Todas as atividades realizadas no âmbito da assistência social, assim como em qualquer outra política pública, devem ser registradas. Não se trata apenas do reg",
+        "É importante compreender, portanto, que as atividades desenvolvidas na assistência social perpassam por um planejamento prévio. Esse planejamento tem relação di",
+        "Uma boa execução e uma boa intervenção dependem de um bom planejamento. Esse processo perpassa por outras etapas e sequências que evidenciam a importância do re",
+        "Monitorar e avaliar correspondem a acompanhar, poder julgar e emitir um valor sobre determinada ação realizada, verificando se ela cumpriu o seu objetivo.",
+        "Embora as ações socioeducativas estejam bastante difundidas no âmbito das políticas sociais como uma ferramenta de promoção da inclusão social e possuam, ano âm"
+      ],
+      "gerado": [
+        "Sejam muito bem-vindos a esta segunda etapa do nosso curso de Geografia do Maranhão. Dando continuidade ao estudo aprofundado do espaço geográfico maranhense, a",
+        "Quando abordamos a geomorfologia de uma determinada região, estamos nos referindo fundamentalmente ao estudo das formas do relevo e aos processos de sua gênese,",
+        "O conceito de compartimentação geomorfológica refere-se à divisão sistemática do relevo em unidades distintas com base em critérios de altitude, declividade, li",
+        "O processo erosivo, ou dissecação, consiste no desgaste, remoção e solapamento do substrato rochoso ou sedimentar, desencadeado pela ação continuada de agentes ",
+        "Por outro lado, o processo de sedimentação refere-se à deposição, acúmulo e consolidação dos materiais detríticos e areníticos previamente transportados pelos a"
+      ],
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.entrelinha",
+      "amostra": 1.5,
+      "gerado": 1.5,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": "ONE_POINT_FIVE",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.negrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.recuo_esquerda_pt",
+      "amostra": 35.4,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.recuo_primeira_linha_pt",
+      "amostra": 35.4,
+      "gerado": 35.4,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.corpo.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.amostras",
+      "amostra": [
+        "Direto do Concurso",
+        "Comentário",
+        "Comentário",
+        "Comentário",
+        "Comentário"
+      ],
+      "gerado": [
+        "Item 4: CERTO.",
+        "Item 5: CERTO.",
+        "Item 6: ERRADO."
+      ],
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.entrelinha",
+      "amostra": 1.5,
+      "gerado": 1.5,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": "ONE_POINT_FIVE",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.enfase.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.alinhamento",
+      "amostra": "CENTER",
+      "gerado": "CENTER",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.amostras",
+      "amostra": [
+        "PLANEJAMENTO, EXECUÇÃO, REGISTRO, MONITORAMENTO E AVALIAÇÃO DE AÇÕES SOCIOEDUCATIVAS"
+      ],
+      "gerado": [
+        "**GEOGRAFIA DO MARANHÃO: GEOMORFOLOGIA, ESTRUTURA GEOLÓGICA E RELEVO**"
+      ],
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.entrelinha",
+      "amostra": 1.5,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "categorias_paragrafo.titulo_principal.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "desenhos.cabecalho",
+      "amostra": 0,
+      "gerado": 0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "desenhos.pagina",
+      "amostra": 1,
+      "gerado": 0,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "desenhos.rodape",
+      "amostra": 0,
+      "gerado": 0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.alinhamento",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.antes_pt",
+      "amostra": 18.0,
+      "gerado": 18.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.cor",
+      "amostra": "tema:ACCENT_1 (5)",
+      "gerado": "tema:ACCENT_1 (5)",
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.depois_pt",
+      "amostra": 4.0,
+      "gerado": 4.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.entrelinha",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.fonte",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.negrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_1.tamanho_pt",
+      "amostra": 20.0,
+      "gerado": 20.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.alinhamento",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.antes_pt",
+      "amostra": 8.0,
+      "gerado": 8.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.cor",
+      "amostra": "tema:ACCENT_1 (5)",
+      "gerado": "tema:ACCENT_1 (5)",
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.depois_pt",
+      "amostra": 4.0,
+      "gerado": 4.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.entrelinha",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.fonte",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.negrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_2.tamanho_pt",
+      "amostra": 16.0,
+      "gerado": 16.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.alinhamento",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.antes_pt",
+      "amostra": 8.0,
+      "gerado": 8.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.cor",
+      "amostra": "tema:ACCENT_1 (5)",
+      "gerado": "tema:ACCENT_1 (5)",
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.depois_pt",
+      "amostra": 4.0,
+      "gerado": 4.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.entrelinha",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.fonte",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.negrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "estilos_nativos.titulo_3.tamanho_pt",
+      "amostra": 14.0,
+      "gerado": 14.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.entrelinha",
+      "amostra": 1.5,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.comentario.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.comentario.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.quantidade",
+      "amostra": 7,
+      "gerado": 3,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.comentario.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.comentario.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.entrelinha",
+      "amostra": 1.5,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.quantidade",
+      "amostra": 1,
+      "gerado": 3,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.direto_do_concurso.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.entrelinha",
+      "amostra": 1.5,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.gabarito.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.gabarito.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.quantidade",
+      "amostra": 1,
+      "gerado": 2,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.gabarito.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.gabarito.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.alinhamento",
+      "amostra": "JUSTIFY",
+      "gerado": "JUSTIFY",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.entrelinha",
+      "amostra": 1.5,
+      "gerado": 1.5,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.entrelinha_regra",
+      "amostra": "ONE_POINT_FIVE",
+      "gerado": "ONE_POINT_FIVE",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.fonte",
+      "amostra": "Arial",
+      "gerado": "Arial",
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.italico",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.maiusculas",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.manter_com_proximo",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.negrito",
+      "amostra": true,
+      "gerado": true,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.quantidade",
+      "amostra": 1,
+      "gerado": 2,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.obs.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.recuo_primeira_linha_pt",
+      "amostra": 35.4,
+      "gerado": null,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.obs.sobrescrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.sublinhado",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.subscrito",
+      "amostra": false,
+      "gerado": false,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.obs.tamanho_pt",
+      "amostra": 11.0,
+      "gerado": 11.0,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.alinhamento",
+      "amostra": null,
+      "gerado": "JUSTIFY",
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.cor",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.entrelinha",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.entrelinha_regra",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.espaco_antes_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.espaco_depois_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.fonte",
+      "amostra": null,
+      "gerado": "Arial",
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.italico",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.maiusculas",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.manter_com_proximo",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.negrito",
+      "amostra": null,
+      "gerado": true,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.quantidade",
+      "amostra": null,
+      "gerado": 3,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.recuo_esquerda_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.recuo_primeira_linha_pt",
+      "amostra": null,
+      "gerado": null,
+      "status": "OK"
+    },
+    {
+      "propriedade": "icones.resolucao.sobrescrito",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.sublinhado",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.subscrito",
+      "amostra": null,
+      "gerado": false,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "icones.resolucao.tamanho_pt",
+      "amostra": null,
+      "gerado": 11.0,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "linha_limitadora.cor",
+      "amostra": "auto",
+      "gerado": "auto",
+      "status": "OK"
+    },
+    {
+      "propriedade": "linha_limitadora.estilo",
+      "amostra": "single",
+      "gerado": "single",
+      "status": "OK"
+    },
+    {
+      "propriedade": "linha_limitadora.largura_pt",
+      "amostra": 1.5,
+      "gerado": 1.5,
+      "status": "OK"
+    },
+    {
+      "propriedade": "linha_limitadora.quantidade",
+      "amostra": 7,
+      "gerado": 12,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "marcadores_tempo.exemplos",
+      "amostra": [
+        "O caráter pedagógico das ações socioeducativas não consiste em uma educação voltada para a doutrinação, mas em uma educa",
+        "A avaliação também constitui uma ferramenta muito importante no processo de gestão, porque, quando se planeja, também se",
+        "IV. A avaliação deve ser completa, sobretudo quando se trata de planejamento social. 15MIN",
+        "e) Assim, a ideia de monitoramento perpassa por um acompanhamento sistemático e contínuo da implementação da política, c",
+        "Esse técnico do SUAS será responsável por auxiliar na elaboração, na execução e no monitoramento dos planos e programas "
+      ],
+      "gerado": [
+        "Por outro lado, o processo de sedimentação refere-se à deposição, acúmulo e consolidação dos materiais detríticos e aren",
+        "Aprofundando os estudos sobre o substrato geológico do Maranhão, torna-se imperioso analisar a relação de dependência ex",
+        "Comentário: Esta questão aborda a geomorfologia do setor centro-sul maranhense, exigindo conhecimento sobre as geoformas",
+        "Comentário: Estamos diante de uma questão clássica de 'peadadinha' ou falsificação de conceitos geográficos. O item acum",
+        "A Porção Norte do Maranhão é caracterizada topograficamente por baixas altitudes e relevo suave a plano. É dominada pela"
+      ],
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "marcadores_tempo.quantidade",
+      "amostra": 5,
+      "gerado": 6,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "num_paragrafos.listas_ornamentais",
+      "amostra": 15,
+      "gerado": 0,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "num_paragrafos.total",
+      "amostra": 114,
+      "gerado": 57,
+      "status": "DIVERGENTE"
+    },
+    {
+      "propriedade": "secoes",
+      "amostra": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "SERVIÇO SOCIAL Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas",
+          "rodape_texto": null
+        }
+      ],
+      "gerado": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "SERVIÇO SOCIAL Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas",
+          "rodape_texto": null
+        }
+      ],
+      "status": "OK"
+    },
+    {
+      "propriedade": "tabelas.exemplos",
+      "amostra": [],
+      "gerado": [],
+      "status": "OK"
+    },
+    {
+      "propriedade": "tabelas.quantidade",
+      "amostra": 0,
+      "gerado": 0,
+      "status": "OK"
+    }
+  ]
+}

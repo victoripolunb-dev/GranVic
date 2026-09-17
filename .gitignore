@@ -1,6 +1,15 @@
 # Segredos — nunca versionar
 .env
 
+# Áudio das aulas (conteúdo do curso — não publicar)
+*.mp3
+*.mp4
+*.m4a
+*.wav
+
+# Arquivos temporários do Word
+~$*
+
 # Ambiente Python
 .venv/
 __pycache__/
@@ -14,4 +23,3 @@ auditoria_regras.json
 relatorio_auditoria_aula5.json
 inspecao_detalhada.json
 _imagens/
-material_final.docx

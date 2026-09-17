@@ -23,6 +23,17 @@ python analisar_amostras.py --comparar <gerado.docx> --amostra <amostra.docx> [-
 python auditoria.py <gerado.docx> <pasta_modelos> [--modo ...]
 ```
 
+O repositório já inclui a pasta `Modelos Gran Cursos/` (templates e amostras oficiais) e o `executar.py` a localiza automaticamente ao lado do código — basta passar `--amostra` se quiser usar outro template.
+
+## Rodando em outra máquina
+
+1. Clonar: `git clone https://github.com/victoripolunb-dev/GranVic.git`.
+2. Criar venv e instalar deps: `python -m venv .venv` + `.venv\Scripts\activate` + `pip install -r requirements.txt`.
+3. Criar `.env` (a partir de `.env.example`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY` — as chaves **não** versionadas.
+4. Rodar o pipeline (`$env:PYTHONIOENCODING="utf-8"` antes).
+
+Templates/amostras já vêm no clone; os materiais gerados (`material_final.docx`) não são versionados.
+
 ## Configuração
 
 - Chaves de API: arquivo `.env` (copie de `.env.example`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY`.

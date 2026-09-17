@@ -10,7 +10,7 @@ Pipelines de produção de materiais de estudo ("degravações") a partir de aul
 
 Pipeline (ordem) em `_sistema/`:
 
-1. `extrator_audio.py` — transcrição da aula (AssemblyAI) → `deg-<nome>.json`.
+1. `transcrever.py` — transcrição da aula (AssemblyAI) → `deg-<nome>.json`.
 2. `extrator_slides.py` — extrai texto por página do slide PDF (PyMuPDF/pdfplumber) e **imagens/diagramas** (só os que não cobrem a maior parte da página — fundo é ignorado). Imagens salvas em `<pasta>/_imagens/`; resultado `slides.json` tem campo `imagens`.
 3. `processador_gemini.py` — monta `pipeline_*_estruturado.json` com a LLM Gemini (`gemini-3.6-flash`, `response_mime_type="application/json"`). Inclui sanitização da saída (`sanitizar_blocos`): remove `**`, rótulos duplicados ("Comentário:", "Direto do Concurso", "Obs.:"→parágrafo corrido), normaliza nomes de ícones/acentos.
 4. `gerador_docx.py` — aplica o estruturado sobre o template Word oficial → `material_final.docx`.

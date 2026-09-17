@@ -9,8 +9,38 @@ from processador_gemini import processar_conteudo
 from gerador_docx import gerar_docx
 from auditoria import rodar_auditoria, encontrar_amostra_correspondente
 
-TEMPLATE_PADRAO = r"C:\Users\Victor\Desktop\Repositório - GranVic\Modelos Gran Cursos\Aula 1\Aula 1 - Documento pronto - Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas.docx"
-PASTA_MODELOS = r"C:\Users\Victor\Desktop\Repositório - GranVic\Modelos Gran Cursos"
+def _raiz_repositorio():
+    return Path(__file__).resolve().parent
+
+
+def _localizar_pasta_modelos():
+    """Localiza a pasta 'Modelos Gran Cursos': primeiro ao lado do repositório
+    (fluxo do GitHub), depois no path local original de desenvolvimento."""
+    candidatos = [
+        _raiz_repositorio() / "Modelos Gran Cursos",
+        Path(r"C:\Users\Victor\Desktop\Repositório - GranVic\Modelos Gran Cursos"),
+    ]
+    for c in candidatos:
+        if c.is_dir():
+            return str(c)
+    return str(candidatos[0])
+
+
+def _resolver_template():
+    """Procura o template 'Documento pronto' da Aula 1 dentro da pasta de modelos."""
+    base = Path(PASTA_MODELOS)
+    nome_desejado = "Aula 1 - Documento pronto - Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas.docx"
+    for sub in sorted(base.glob("Aula 1*")):
+        for f in sub.glob("*.docx"):
+            if f.name == nome_desejado:
+                return str(f)
+            if "Documento pronto" in f.name:
+                return str(f)
+    return str(base / "Aula 1" / nome_desejado)
+
+
+PASTA_MODELOS = _localizar_pasta_modelos()
+TEMPLATE_PADRAO = _resolver_template()
 
 def _normalizar_estruturado(blocos):
     """Converte estrutura legada (sem campo 'tipo') para o schema atual de blocos."""

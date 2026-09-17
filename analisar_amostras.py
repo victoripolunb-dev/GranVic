@@ -10,6 +10,18 @@ from docx_fingerprint import comparar_fingerprints, extrair_fingerprint, sao_mes
 RAIZ = Path(__file__).resolve().parent.parent
 PADRAO_MODELOS = "Modelos Gran Cursos"
 
+
+def _pasta_modelos_default():
+    """Pasta 'Modelos Gran Cursos': dentro do repositório (fluxo GitHub) ou path local legado."""
+    candidatos = [
+        Path(__file__).resolve().parent / PADRAO_MODELOS,
+        Path(r"C:\Users\Victor\Desktop\Repositório - GranVic\Modelos Gran Cursos"),
+    ]
+    for c in candidatos:
+        if c.is_dir():
+            return str(c)
+    return str(candidatos[0])
+
 CAMPOS_CATEGORIA = (
     "fonte",
     "tamanho_pt",
@@ -376,7 +388,7 @@ def main():
         pass
     parser = argparse.ArgumentParser(description="Analisa amostras .docx do Gran Cursos e mapeia o padrão de estilo.")
     parser.add_argument("--raiz", default=str(RAIZ), help="Pasta raiz das entregas (padrão: Entregas Gran Cursos)")
-    parser.add_argument("--modelos", default=str(RAIZ.parent / PADRAO_MODELOS), help="Pasta com as amostras-modelo (padrão: Modelos Gran Cursos)")
+    parser.add_argument("--modelos", default=_pasta_modelos_default(), help="Pasta com as amostras-modelo (padrão: Modelos Gran Cursos do repositório)")
     parser.add_argument("--saida", default=str(RAIZ / "_sistema" / "regras_estilo.json"), help="Caminho do regras_estilo.json")
     parser.add_argument("--detalhe", default=str(RAIZ / "_sistema" / "inspecao_detalhada.json"), help="Caminho do relatório detalhado")
     parser.add_argument("--comparar", metavar="GERADO", help="Audita um material gerado comparando com a amostra")
