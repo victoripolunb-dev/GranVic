@@ -1,0 +1,17 @@
+# Segredos — nunca versionar
+.env
+
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# Artefatos locais (relatórios/diagnósticos gerados na máquina)
+auditoria_regras.json
+relatorio_auditoria_aula5.json
+inspecao_detalhada.json
+_imagens/
+material_final.docx

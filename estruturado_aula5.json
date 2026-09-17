@@ -1,0 +1,64 @@
+[
+  {
+    "tempo": "00:00",
+    "titulo": "GEOGRAFIA DO MARANHÃO - Geomorfologia",
+    "corpo": "Segunda parte da aula sobre geomorfologia do Maranhão, abordando a variação altimétrica, processos de relevo e análise das questões sobre compartimentação geomorfológica."
+  },
+  {
+    "tempo": "00:30",
+    "titulo": "Questão 4 - Compartimentação Geomorfológica",
+    "questao": "4. À luz da compartimentação geomorfológica e dos processos responsáveis pela modelagem da superfície maranhense, julgue o item subsequente.\nO relevo maranhense apresenta diversidade de compartimentos, com planaltos e chapadas associados a superfícies mais elevadas e submetidas à dissecação erosiva, enquanto planícies e baixadas correspondem a setores rebaixados nos quais processos de acumulação sedimentar e dinâmica fluvial ou costeira assumem expressiva importância na configuração da paisagem.",
+    "alternativa": "( ) CERTO  ( ) ERRADO"
+  },
+  {
+    "tempo": "01:15",
+    "icone": "conceito",
+    "enfase": "Conceitos de Erosão e Sedimentação",
+    "corpo": "• Compartimentação: Processos de formação do relevo.\n• Erosão: Processo de desgastes e solapamento natural, atuante principalmente em planaltos e chapadas.\n• Sedimentação: Acúmulo de sedimentos trazidos por redes hídricas ou marinhas em áreas rebaixadas (baixadas e planícies)."
+  },
+  {
+    "tempo": "02:30",
+    "icone": "destaque",
+    "enfase": "Três Características Gerais do Relevo Maranhense",
+    "corpo": "1. Ampla diversidade de paisagens geomorfológicas.\n2. Forte presença de estruturas sedimentares.\n3. Intenso modelamento e transporte superficial."
+  },
+  {
+    "tempo": "03:40",
+    "gabarito_fim": "CERTO (Questão 4)",
+    "corpo": "A afirmativa 4 está CORRETA. Descreve perfeitamente a atuação da dissecação erosiva nas áreas elevadas (planaltos/chapadas) e a deposição sedimentar nas áreas rebaixadas (planícies/baixadas)."
+  },
+  {
+    "tempo": "03:50",
+    "titulo": "Questão 5 - Estrutura Geológica e Relevo",
+    "questao": "5. Considerando a compartimentação do relevo e sua relação com a estrutura geológica do território maranhense, julgue o item subsequente.\nOs planaltos e chapadas do centro-sul do Maranhão estão associados, em grande parte, a estruturas sedimentares da Bacia do Parnaíba, apresentando superfícies tabulares e bordas escarpadas submetidas à dissecação fluvial, com destaque para setores da Chapada das Mesas e áreas elevadas próximas ao sul do estado.",
+    "alternativa": "( ) CERTO  ( ) ERRADO"
+  },
+  {
+    "tempo": "04:45",
+    "icone": "detalhar",
+    "enfase": "Estruturas Geológicas do Maranhão",
+    "corpo": "1. Bacia Sedimentar do Parnaíba: Cobertura sedimentar antiga com formações magmáticas e superfícies tabulares.\n2. Bacias Costeiras (São Luís e Barreirinhas): Terrenos sedimentares de baixas altitudes.\n3. Embasamento Cristalino: Rocas ígneas/metamórficas antigas.\n4. Depósitos Quaternários Recentes: Planícies fluviais, manguezais, dunas e a Baixada Maranhense."
+  },
+  {
+    "tempo": "06:10",
+    "gabarito_fim": "CERTO (Questão 5)",
+    "corpo": "A afirmativa 5 está CORRETA. O centro-sul do estado liga-se à Bacia do Parnaíba, destacando relevos tabulares, chapadas (ex: Chapada das Mesas) e dissecação efetuada pela rede fluvial."
+  },
+  {
+    "tempo": "06:20",
+    "titulo": "Questão 6 - Formas e Unidades de Relevo",
+    "questao": "6. Considerando as formas de relevo e os processos responsáveis pela organização geomorfológica do território maranhense, julgue o item subsequente.\nO relevo do Maranhão é marcado pelo amplo domínio de planaltos cristalinos antigos no norte e por extensas áreas montanhosas no centro-sul, enquanto as planícies e baixadas apresentam ocorrência espacial restrita ao litoral imediato.",
+    "alternativa": "( ) CERTO  ( ) ERRADO"
+  },
+  {
+    "tempo": "07:10",
+    "icone": "alerta",
+    "enfase": "Erros da Questão 6",
+    "corpo": "• No norte NÃO há amplo domínio de planaltos cristalinos antigos, mas sim de superfícies rebaixadas e sedimentares.\n• No centro-sul NÃO existem áreas montanhosas, e sim planaltos, chapadas e superfícies tabulares.\n• As baixadas e planícies não se restringem ao litoral imediato, englobando também a Baixada Maranhense e planícies fluviais interiores."
+  },
+  {
+    "tempo": "08:00",
+    "gabarito_fim": "ERRADO (Questão 6)",
+    "corpo": "A afirmativa 6 está ERRADA. Houve erro na identificação das unidades de relevo (ausência de montanhas) e na localização dos domínios cristalinos e planícies no estado."
+  }
+]

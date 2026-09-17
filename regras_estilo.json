@@ -1,0 +1,1305 @@
+{
+  "gerado_em": "2026-09-14T20:41:35",
+  "amostras_analisadas": [
+    {
+      "pasta": "Aula 1",
+      "arquivo": "Aula 1 - Documento pronto - Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas.docx"
+    },
+    {
+      "pasta": "Aula 2",
+      "arquivo": "Aula 2 - Documento pronto - Legislação Penal Especial - Crimes Ambientais II.docx"
+    },
+    {
+      "pasta": "Aula 3",
+      "arquivo": "Aula 3 - Documento pronto - Erro Padrão, Probabilidade.docx"
+    },
+    {
+      "pasta": "Aula 4",
+      "arquivo": "Aula 4 - Documento pronto - Das Eleições dos Ocupantes dos Cargos Diretivos - 608430 - 260723(5)02.docx"
+    }
+  ],
+  "aviso": [],
+  "template_recomendado": "C:\\Users\\Victor\\Desktop\\Modelos Gran Cursos\\Aula 1\\Aula 1 - Documento pronto - Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas.docx",
+  "estilos": {
+    "titulo_principal": {
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "CENTER",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE",
+      "recuo_esquerda_pt": null,
+      "recuo_primeira_linha_pt": null
+    },
+    "titulo_1": {
+      "fonte": null,
+      "tamanho_pt": null,
+      "negrito": null,
+      "italico": null,
+      "sublinhado": null,
+      "maiusculas": null,
+      "cor": null,
+      "alinhamento": null,
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": null,
+      "entrelinha_regra": null,
+      "recuo_esquerda_pt": null,
+      "recuo_primeira_linha_pt": null
+    },
+    "titulo_2": {
+      "fonte": null,
+      "tamanho_pt": null,
+      "negrito": null,
+      "italico": null,
+      "sublinhado": null,
+      "maiusculas": null,
+      "cor": null,
+      "alinhamento": null,
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": null,
+      "entrelinha_regra": null,
+      "recuo_esquerda_pt": null,
+      "recuo_primeira_linha_pt": null
+    },
+    "titulo_3": {
+      "fonte": null,
+      "tamanho_pt": null,
+      "negrito": null,
+      "italico": null,
+      "sublinhado": null,
+      "maiusculas": null,
+      "cor": null,
+      "alinhamento": null,
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": null,
+      "entrelinha_regra": null,
+      "recuo_esquerda_pt": null,
+      "recuo_primeira_linha_pt": null
+    },
+    "enfase": {
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE",
+      "recuo_esquerda_pt": 106.2,
+      "recuo_primeira_linha_pt": null
+    },
+    "corpo": {
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": false,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": 0.0,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE",
+      "recuo_esquerda_pt": 35.4,
+      "recuo_primeira_linha_pt": 35.4
+    }
+  },
+  "cores_corporativas": [],
+  "caixas_destaque": {},
+  "icones": {
+    "atencao": {
+      "quantidade_total": 3,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "comentario": {
+      "quantidade_total": 11,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "direto_do_concurso": {
+      "quantidade_total": 4,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "gabarito": {
+      "quantidade_total": 3,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "obs": {
+      "quantidade_total": 1,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "pegadinha_da_banca": {
+      "quantidade_total": 1,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "relembrando": {
+      "quantidade_total": 1,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    },
+    "resolucao": {
+      "quantidade_total": 6,
+      "fonte": "Arial",
+      "tamanho_pt": 11.0,
+      "negrito": true,
+      "italico": false,
+      "sublinhado": false,
+      "maiusculas": false,
+      "cor": null,
+      "alinhamento": "JUSTIFY",
+      "espaco_antes_pt": null,
+      "espaco_depois_pt": null,
+      "entrelinha": 1.5,
+      "entrelinha_regra": "ONE_POINT_FIVE"
+    }
+  },
+  "linha_limitadora": {
+    "estilo": "single",
+    "cor": "auto",
+    "largura_pt": 1.5,
+    "quantidade_total": 19
+  },
+  "marcadores_tempo": {
+    "quantidade_total": 20
+  },
+  "citacoes_lei": {
+    "quantidade_total": 3,
+    "fonte": "Arial",
+    "tamanho_pt": 10.0,
+    "italico": false,
+    "cor": null,
+    "recuo_esquerda_pt": 106.2
+  },
+  "tabelas": {
+    "quantidade_media": 0.0,
+    "exemplo_header": ""
+  },
+  "secoes_pagina": {
+    "margens_pt": {
+      "superior": 70.85,
+      "inferior": 70.85,
+      "esquerda": 85.05,
+      "direita": 85.05
+    },
+    "largura_pt": 595.3,
+    "orientacao": "retrato"
+  },
+  "desenhos_imagens": {
+    "quantidade_media": 1.0
+  },
+  "fingerprints": [
+    {
+      "secoes": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "SERVIÇO SOCIAL Planejamento, execução, registro, monitoramento e avaliação de ações socioeducativas",
+          "rodape_texto": null
+        }
+      ],
+      "desenhos": {
+        "pagina": 1,
+        "cabecalho": 0,
+        "rodape": 0
+      },
+      "estilos_nativos": {
+        "titulo_1": {
+          "fonte": null,
+          "tamanho_pt": 20.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 18.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_2": {
+          "fonte": null,
+          "tamanho_pt": 16.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_3": {
+          "fonte": null,
+          "tamanho_pt": 14.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        }
+      },
+      "categorias_paragrafo": {
+        "titulo_principal": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "CENTER",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "PLANEJAMENTO, EXECUÇÃO, REGISTRO, MONITORAMENTO E AVALIAÇÃO DE AÇÕES SOCIOEDUCATIVAS"
+          ]
+        },
+        "corpo": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": false,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": 35.4,
+          "recuo_primeira_linha_pt": 35.4,
+          "manter_com_proximo": false,
+          "amostras": [
+            "Todas as atividades realizadas no âmbito da assistência social, assim como em qualquer outra política pública, devem ser registradas. Não se trata apenas do reg",
+            "É importante compreender, portanto, que as atividades desenvolvidas na assistência social perpassam por um planejamento prévio. Esse planejamento tem relação di",
+            "Uma boa execução e uma boa intervenção dependem de um bom planejamento. Esse processo perpassa por outras etapas e sequências que evidenciam a importância do re",
+            "Monitorar e avaliar correspondem a acompanhar, poder julgar e emitir um valor sobre determinada ação realizada, verificando se ela cumpriu o seu objetivo.",
+            "Embora as ações socioeducativas estejam bastante difundidas no âmbito das políticas sociais como uma ferramenta de promoção da inclusão social e possuam, ano âm"
+          ]
+        },
+        "enfase": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "Direto do Concurso",
+            "Comentário",
+            "Comentário",
+            "Comentário",
+            "Comentário"
+          ]
+        }
+      },
+      "caixas_destaque": {
+        "sem_rotulo": {
+          "quantidade": 7,
+          "bordas": {
+            "bottom": {
+              "estilo": "single",
+              "cor": "auto",
+              "espaco": "1",
+              "largura_pt": 1.5
+            }
+          },
+          "fundo_cor": null,
+          "formato_rotulo": {
+            "fonte": null,
+            "tamanho_pt": null,
+            "negrito": null,
+            "cor": null,
+            "maiusculas": null
+          },
+          "formato_corpo": {
+            "fonte": "Arial",
+            "tamanho_pt": 11.0,
+            "negrito": false,
+            "italico": false
+          },
+          "alinhamento": "JUSTIFY"
+        }
+      },
+      "icones": {
+        "obs": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": 35.4,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "direto_do_concurso": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "comentario": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 7
+        },
+        "gabarito": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        }
+      },
+      "linha_limitadora": {
+        "quantidade": 7,
+        "estilo": "single",
+        "cor": "auto",
+        "largura_pt": 1.5
+      },
+      "marcadores_tempo": {
+        "quantidade": 5,
+        "exemplos": [
+          "O caráter pedagógico das ações socioeducativas não consiste em uma educação voltada para a doutrinação, mas em uma educa",
+          "A avaliação também constitui uma ferramenta muito importante no processo de gestão, porque, quando se planeja, também se",
+          "IV. A avaliação deve ser completa, sobretudo quando se trata de planejamento social. 15MIN",
+          "e) Assim, a ideia de monitoramento perpassa por um acompanhamento sistemático e contínuo da implementação da política, c",
+          "Esse técnico do SUAS será responsável por auxiliar na elaboração, na execução e no monitoramento dos planos e programas "
+        ]
+      },
+      "citacoes_lei": {},
+      "tabelas": {
+        "quantidade": 0,
+        "exemplos": []
+      },
+      "num_paragrafos": {
+        "total": 114,
+        "listas_ornamentais": 15
+      }
+    },
+    {
+      "secoes": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "TREINAMENTO INTENSIVO Legislação Penal Especial – Crimes Ambientais II",
+          "rodape_texto": null
+        }
+      ],
+      "desenhos": {
+        "pagina": 0,
+        "cabecalho": 0,
+        "rodape": 0
+      },
+      "estilos_nativos": {
+        "titulo_1": {
+          "fonte": null,
+          "tamanho_pt": 20.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 18.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_2": {
+          "fonte": null,
+          "tamanho_pt": 16.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_3": {
+          "fonte": null,
+          "tamanho_pt": 14.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        }
+      },
+      "categorias_paragrafo": {
+        "titulo_principal": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "CENTER",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "LEGISLAÇÃO PENAL ESPECIAL – CRIMES AMBIENTAIS II"
+          ]
+        },
+        "enfase": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "Direto do Concurso",
+            "Comentário",
+            "Relembrando",
+            "Atenção!",
+            "Direto do Concurso"
+          ]
+        },
+        "corpo": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": false,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": 106.2,
+          "recuo_primeira_linha_pt": 35.4,
+          "manter_com_proximo": false,
+          "amostras": [
+            "(CESPE/2025/POLÍCIA FEDERAL/DELEGADO DE POLICIA FEDERAL) José transportava produtos florestais sem a devida licença ambiental e, durante abordagem policial, foi",
+            "A Lei de Crimes Ambientais determina que os instrumentos utilizados na prática de infração ambiental sejam doados a instituições científicas e educacionais.",
+            "Certo",
+            "Errado",
+            "A questão da apreensão, prevista no art. 25 da Lei de Crimes Ambientais, é especialmente relevante para as carreiras policiais. A destinação dos produtos apreen"
+          ]
+        }
+      },
+      "caixas_destaque": {
+        "sem_rotulo": {
+          "quantidade": 6,
+          "bordas": {
+            "bottom": {
+              "estilo": "single",
+              "cor": "auto",
+              "espaco": "1",
+              "largura_pt": 1.5
+            }
+          },
+          "fundo_cor": null,
+          "formato_rotulo": {
+            "fonte": null,
+            "tamanho_pt": null,
+            "negrito": null,
+            "cor": null,
+            "maiusculas": null
+          },
+          "formato_corpo": {
+            "fonte": "Arial",
+            "tamanho_pt": 11.0,
+            "negrito": false,
+            "italico": false
+          },
+          "alinhamento": "JUSTIFY"
+        }
+      },
+      "icones": {
+        "direto_do_concurso": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 2
+        },
+        "comentario": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 4
+        },
+        "relembrando": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "atencao": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "pegadinha_da_banca": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "gabarito": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        }
+      },
+      "linha_limitadora": {
+        "quantidade": 6,
+        "estilo": "single",
+        "cor": "auto",
+        "largura_pt": 1.5
+      },
+      "marcadores_tempo": {
+        "quantidade": 4,
+        "exemplos": [
+          "A madeira, por exemplo, também pode se perder, pois acaba apresentando fungos e sofrendo deterioração. Portanto, trata-s",
+          "IV – Ainda que o infrator cometa, simultaneamente, duas ou mais infrações administrativas, a legislação veda expressamen",
+          "Assim, se houver, por exemplo, gado ou galinhas, é possível realizar o abate para consumo humano. 15MIN",
+          "Esse entendimento também se aplica às pessoas que alugam veículos. Imagine, por exemplo, alguém que aluga um caminhão e,"
+        ]
+      },
+      "citacoes_lei": {
+        "quantidade": 2,
+        "fonte": "Arial",
+        "tamanho_pt": 10.0,
+        "italico": false,
+        "cor": null,
+        "recuo_esquerda_pt": 106.2,
+        "recuo_primeira_linha_pt": null,
+        "exemplos": [
+          "Art. 25. Verificada a infração, serão apreendidos seus produtos e instrumentos, lavrando-se os respectivos autos.",
+          "§ 5º Os instrumentos utilizados na prática da infração serão vendidos, garantida a sua descaracterização por meio da reciclagem."
+        ]
+      },
+      "tabelas": {
+        "quantidade": 0,
+        "exemplos": []
+      },
+      "num_paragrafos": {
+        "total": 85,
+        "listas_ornamentais": 15
+      }
+    },
+    {
+      "secoes": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "TREINAMENTO INTENSIVO Erro Padrão, Probabilidade",
+          "rodape_texto": null
+        }
+      ],
+      "desenhos": {
+        "pagina": 3,
+        "cabecalho": 0,
+        "rodape": 0
+      },
+      "estilos_nativos": {
+        "titulo_1": {
+          "fonte": null,
+          "tamanho_pt": 20.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 18.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_2": {
+          "fonte": null,
+          "tamanho_pt": 16.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_3": {
+          "fonte": null,
+          "tamanho_pt": 14.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        }
+      },
+      "categorias_paragrafo": {
+        "titulo_principal": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "CENTER",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "ERRO PADRÃO, PROBABILIDADE"
+          ]
+        },
+        "enfase": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "Direto do Concurso",
+            "Resolução",
+            "Resolução",
+            "Resolução",
+            "Resolução"
+          ]
+        },
+        "corpo": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": false,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": 35.4,
+          "recuo_primeira_linha_pt": 35.4,
+          "manter_com_proximo": false,
+          "amostras": [
+            "30. (CESPE/CEBRASPE/2024/PC-PE/AGENTE DE POLÍCIA) Supondo -se que os eventos A, B, C e D sejam coletivamente independentes, de maneira que P(A) = 0,4, P (B) = 0",
+            "Quando os eventos são independentes, a probabilidade da interseção pode ser calculada por meio da multiplicação das probabilidades. Assim, para eventos independ",
+            "P(X ∩ Y) = P(X) × P(Y)",
+            "Portanto, se X e Y forem independentes, a interseção transforma-se em uma multiplicação. A questão solicita a probabilidade de ocorrência do evento A ∩ B ∩ C ∩ ",
+            "P(A) × P(B) × P(C) × P(D)"
+          ]
+        }
+      },
+      "caixas_destaque": {
+        "sem_rotulo": {
+          "quantidade": 6,
+          "bordas": {
+            "bottom": {
+              "estilo": "single",
+              "cor": "auto",
+              "espaco": "1",
+              "largura_pt": 1.5
+            }
+          },
+          "fundo_cor": null,
+          "formato_rotulo": {
+            "fonte": null,
+            "tamanho_pt": null,
+            "negrito": null,
+            "cor": null,
+            "maiusculas": null
+          },
+          "formato_corpo": {
+            "fonte": "Arial",
+            "tamanho_pt": 11.0,
+            "negrito": false,
+            "italico": false
+          },
+          "alinhamento": "JUSTIFY"
+        }
+      },
+      "icones": {
+        "direto_do_concurso": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        },
+        "resolucao": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 6
+        },
+        "atencao": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 2
+        },
+        "gabarito": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": 1.5,
+          "entrelinha_regra": "ONE_POINT_FIVE",
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "quantidade": 1
+        }
+      },
+      "linha_limitadora": {
+        "quantidade": 6,
+        "estilo": "single",
+        "cor": "auto",
+        "largura_pt": 1.5
+      },
+      "marcadores_tempo": {
+        "quantidade": 5,
+        "exemplos": [
+          "Para visualizar a situação, pode-se imaginar as 100 celas organizadas em grupos. Dentre essas 100 celas, foram seleciona",
+          "A amostragem estratificada com alocação ótima de Neyman pode ser entendida como uma forma mais sofisticada de amostragem",
+          "A questão estabelece que o erro-padrão deve ser igual a 4% do desvio-padrão populacional. Como 4% corresponde a 0,04, te",
+          "A idade, por sua vez, pode ser considerada uma variável quantitativa contínua quando analisada de maneira exata, pois um",
+          "III. Já a idade, conforme a classificação adotada na questão, é uma variável quantitativa discreta, e não uma variável q"
+        ]
+      },
+      "citacoes_lei": {},
+      "tabelas": {
+        "quantidade": 0,
+        "exemplos": []
+      },
+      "num_paragrafos": {
+        "total": 182,
+        "listas_ornamentais": 17
+      }
+    },
+    {
+      "secoes": [
+        {
+          "orientacao": "retrato",
+          "largura_pt": 595.3,
+          "altura_pt": 841.9,
+          "margens_pt": {
+            "superior": 70.85,
+            "inferior": 70.85,
+            "esquerda": 85.05,
+            "direita": 85.05
+          },
+          "cabecalho_texto": "REGIMENTO INTERNO Das Eleições dos Ocupantes dos Cargos Diretivos",
+          "rodape_texto": null
+        }
+      ],
+      "desenhos": {
+        "pagina": 0,
+        "cabecalho": 0,
+        "rodape": 0
+      },
+      "estilos_nativos": {
+        "titulo_1": {
+          "fonte": null,
+          "tamanho_pt": 20.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 18.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_2": {
+          "fonte": null,
+          "tamanho_pt": 16.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        },
+        "titulo_3": {
+          "fonte": null,
+          "tamanho_pt": 14.0,
+          "negrito": false,
+          "italico": false,
+          "cor": "tema:ACCENT_1 (5)",
+          "alinhamento": null,
+          "antes_pt": 8.0,
+          "depois_pt": 4.0,
+          "entrelinha": null
+        }
+      },
+      "categorias_paragrafo": {
+        "titulo_principal": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "CENTER",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": null,
+          "entrelinha_regra": null,
+          "recuo_esquerda_pt": null,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "DAS ELEIÇÕES DOS OCUPANTES DOS CARGOS DIRETIVOS"
+          ]
+        },
+        "corpo": {
+          "fonte": "Arial",
+          "tamanho_pt": 10.0,
+          "negrito": false,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": 0.0,
+          "entrelinha": null,
+          "entrelinha_regra": null,
+          "recuo_esquerda_pt": 106.2,
+          "recuo_primeira_linha_pt": 35.4,
+          "manter_com_proximo": false,
+          "amostras": [
+            "No bloco anterior, foi apresentado o procedimento de escolha dos conselheiros do TCDF, acompanhado de um fluxograma para facilitar a compreensão desse processo.",
+            "A escolha é realizada tanto pela Câmara Legislativa do Distrito Federal (CLDF), responsável pela indicação de quatro conselheiros, quanto pelo Governador do Dis",
+            "Os nomes indicados pelo Governador são submetidos à sabatina da Câmara Legislativa do Distrito Federal, que poderá aprová-los ou rejeitá-los. Após a aprovação, ",
+            "Ressalta-se que, uma vez escolhido conselheiro do Tribunal de Contas, o agente desvincula-se de sua origem e passa a exercer suas atribuições com independência ",
+            "k) auditorias ou inspeções, inclusive as solicitadas pela Câmara Legislativa ou por suas comissões técnicas ou de inquérito;"
+          ]
+        },
+        "enfase": {
+          "fonte": "Arial",
+          "tamanho_pt": 11.0,
+          "negrito": true,
+          "italico": false,
+          "sublinhado": false,
+          "maiusculas": false,
+          "cor": null,
+          "subscrito": false,
+          "sobrescrito": false,
+          "alinhamento": "JUSTIFY",
+          "espaco_antes_pt": null,
+          "espaco_depois_pt": null,
+          "entrelinha": null,
+          "entrelinha_regra": null,
+          "recuo_esquerda_pt": 106.2,
+          "recuo_primeira_linha_pt": null,
+          "manter_com_proximo": false,
+          "amostras": [
+            "LODF",
+            "CAPÍTULO III",
+            "DA ELEIÇÃO DO PRESIDENTE, DO VICEPRESIDENTE, DO CORREGEDOR, DO CONSELHEIRO-OUVIDOR, DO REGENTE DA ESCOLA DE CONTAS PÚBLICAS, DO CONSELHEIRO DE RELAÇÕES INSTITUC"
+          ]
+        }
+      },
+      "caixas_destaque": {},
+      "icones": {},
+      "linha_limitadora": {
+        "quantidade": 0,
+        "estilo": null,
+        "cor": null,
+        "largura_pt": null
+      },
+      "marcadores_tempo": {
+        "quantidade": 6,
+        "exemplos": [
+          "p) a prestação de contas prevista no art. 81 da Lei Orgânica do Distrito Federal; 5MIN",
+          "A legislação estabelece mecanismos de controle e fiscalização destinados a resguardar o patrimônio público e a evitar su",
+          "No caso das vagas destinadas aos membros do Ministério Público junto ao Tribunal, é elaborada uma lista tríplice, encami",
+          "V – elaborar e aprovar os atos normativos necessários à organização e a execução dos serviços que lhe competem; 20MIN",
+          "Conforme art. 15 do RITCDF, o Presidente, o Vice-presidente, o Corregedor, o Conselheiro-Ouvidor, o Regente da Escola de"
+        ]
+      },
+      "citacoes_lei": {
+        "quantidade": 1,
+        "fonte": "Arial",
+        "tamanho_pt": 11.0,
+        "italico": false,
+        "cor": null,
+        "recuo_esquerda_pt": 106.2,
+        "recuo_primeira_linha_pt": null,
+        "exemplos": [
+          "Art. 81. O Tribunal de Contas do Distrito Federal prestará contas anualmente de sua execução orçamentária, financeira e patrimonial à Câmara Legislativa, até se"
+        ]
+      },
+      "tabelas": {
+        "quantidade": 0,
+        "exemplos": []
+      },
+      "num_paragrafos": {
+        "total": 92,
+        "listas_ornamentais": 7
+      }
+    }
+  ]
+}
