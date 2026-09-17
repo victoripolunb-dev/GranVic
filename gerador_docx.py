@@ -119,7 +119,7 @@ def gerar_docx(template_path, json_estruturado_path, saida_docx_path, blocos=Non
     print(f"[GeradorDocx] Escrevendo {len(blocos)} blocos...")
 
     # Linha limitadora (borda inferior) no último parágrafo de conteúdo de cada bloco de ícone
-    tipos_conteudo = ("corpo", "questao", "comentario", "alternativa", "formula", "citacao_lei")
+    tipos_conteudo = ("corpo", "questao", "comentario", "gabarito_comentario", "alternativa", "formula", "citacao_lei")
     indices_borda = set()
     for k, bloco in enumerate(blocos):
         if bloco.get("tipo") != "icone":
@@ -183,7 +183,7 @@ def gerar_docx(template_path, json_estruturado_path, saida_docx_path, blocos=Non
             run.font.size = Pt(11)
             run.bold = True
             
-        elif tipo in ("questao", "comentario"):
+        elif tipo in ("questao", "comentario", "gabarito_comentario"):
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             p.paragraph_format.line_spacing = 1.5
@@ -260,6 +260,9 @@ def gerar_docx(template_path, json_estruturado_path, saida_docx_path, blocos=Non
                 run_r = p_r.add_run(str(r))
                 run_r.font.name = "Arial"
                 run_r.font.size = Pt(11)
+
+        else:
+            print(f"[GeradorDocx] AVISO: bloco de tipo desconhecido ignorado: {tipo!r}")
 
     # Rodapé padrão do template ou disclaimer final
     p_disc = doc.add_paragraph()

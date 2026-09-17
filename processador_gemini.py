@@ -5,6 +5,7 @@ import sys
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from retry_utils import com_retry, ErroRetentavel
 
 load_dotenv()
 
@@ -150,7 +151,7 @@ def sanitizar_blocos(blocos):
             continue
         if "texto" in bloco:
             bloco["texto"] = sanitizar_texto(bloco["texto"])
-        if tipo in ("corpo", "comentario", "questao", "enfase", "citacao_lei", "formula"):
+        if tipo in ("corpo", "comentario", "questao", "enfase", "citacao_lei", "formula", "gabarito_comentario"):
             nome = None
             if i > 0 and isinstance(saida[-1], dict) and saida[-1].get("tipo") == "icone":
                 nome = saida[-1].get("nome")
@@ -160,6 +161,46 @@ def sanitizar_blocos(blocos):
             if m:
                 bloco["letra"] = m.group(1).lower()
                 bloco["texto"] = bloco["texto"][m.end():].strip()
+        saida.append(bloco)
+    return saida
+
+
+def _resolver_imagens(blocos, dados_slides):
+    """Converte blocos {"tipo":"imagem","pagina":N,"imagem":M} no campo 'arquivo'
+    real, resolvendo pelas imagens extraídas em slides.json (extrator_slides)."""
+    paginas = dados_slides or []
+    if isinstance(paginas, dict) and "paginas" in paginas:
+        paginas = paginas.get("paginas") or []
+    if not isinstance(paginas, list):
+        return blocos
+    saida = []
+    for bloco in blocos:
+        if isinstance(bloco, dict) and bloco.get("tipo") == "imagem":
+            arquivo = bloco.get("arquivo")
+            if arquivo and os.path.exists(arquivo):
+                saida.append(bloco)
+                continue
+            pagina_n = bloco.get("pagina")
+            indice = bloco.get("imagem", 1) or 1
+            encontrado = None
+            for p in paginas:
+                if not isinstance(p, dict):
+                    continue
+                if p.get("pagina") == pagina_n:
+                    imagens = p.get("imagens") or []
+                    if not imagens:
+                        break
+                    try:
+                        item = imagens[int(indice) - 1]
+                    except (IndexError, ValueError, TypeError):
+                        item = None
+                    if isinstance(item, dict):
+                        encontrado = item.get("arquivo")
+                    break
+            if encontrado and os.path.exists(encontrado):
+                bloco["arquivo"] = encontrado
+            elif not arquivo:
+                print(f"[ProcessadorGemini] AVISO: imagem não resolvida (pagina={pagina_n}, imagem={indice}); bloco mantido sem arquivo.")
         saida.append(bloco)
     return saida
 
@@ -196,25 +237,31 @@ Gere o JSON estruturado seguindo rigorosamente todas as regras editoriais. Retor
 """
 
     print("[ProcessadorGemini] Chamando Gemini 3.6 Flash...")
-    response = _cliente().models.generate_content(
-        model="gemini-3.6-flash",
-        contents=prompt_usuario,
-        config=types.GenerateContentConfig(
-            system_instruction=PROMPT_SISTEMA,
-            response_mime_type="application/json",
-            temperature=0.2,
-        ),
-    )
-    
-    texto_resp = response.text
-    # valida json
-    dados = json.loads(texto_resp)
-    if isinstance(dados, dict) and "blocos" in dados:
-        dados = dados["blocos"]
-    if not isinstance(dados, list):
-        raise ValueError("O modelo não retornou uma lista de blocos.")
-    
+
+    def _gerar_blocos():
+        response = _cliente().models.generate_content(
+            model="gemini-3.6-flash",
+            contents=prompt_usuario,
+            config=types.GenerateContentConfig(
+                system_instruction=PROMPT_SISTEMA,
+                response_mime_type="application/json",
+                temperature=0.2,
+            ),
+        )
+        try:
+            dados = json.loads(response.text)
+        except (json.JSONDecodeError, TypeError) as erro:
+            raise ErroRetentavel(f"JSON inválido retornado pelo modelo: {erro}") from erro
+        if isinstance(dados, dict) and "blocos" in dados:
+            dados = dados["blocos"]
+        if not isinstance(dados, list):
+            raise ErroRetentavel("O modelo não retornou uma lista de blocos.")
+        return dados
+
+    dados = com_retry(_gerar_blocos, "geração de conteúdo (Gemini)")
+
     dados = sanitizar_blocos(dados)
+    dados = _resolver_imagens(dados, slides)
     
     with open(saida_json_path, "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=2)

@@ -16,9 +16,11 @@ Pipeline (ordem) em `_sistema/`:
 4. `gerador_docx.py` — aplica o estruturado sobre o template Word oficial → `material_final.docx`.
 5. `auditoria.py` / `analisar_amostras.py` — compara o gerado contra a amostra/modelo via fingerprint e grava `auditoria_regras.json`.
 
+Resiliência: `retry_utils.com_retry` (backoff exponencial + jitter, 5 tentativas) envolve as chamadas externas — Gemini (`processador_gemini`) e AssemblyAI (`transcrever`). Só reexecuta falhas transitórias (429/5xx/timeout/JSON inválido do modelo); erros permanentes (chave inválida/400) sobem na 1ª tentativa.
+
 ## Blocos do estruturado
 
-`titulo`, `corpo`, `enfase`, `icone` (`nome`), `questao`, `alternativa` (`letra a..e`), `comentario`, `citacao_lei`, `formula` (centralizada; `^`→sobrescrito, `_`→subscrito), `tabela` (`cabecalho`+`linhas`), `imagem` (`arquivo`+`legenda`), `tempo` (`minuto` — anexa "[nmin]" ao fim do último parágrafo antes do gabarito), `gabarito_fim` (`respostas`), `gabarito_comentario` (se ocorrer). Suporte a aulas de exatas (tabelas/fórmulas/imagens) já implementado; equações OMML nativas ainda não — fórmulas vão como texto centralizado.
+`titulo`, `corpo`, `enfase`, `icone` (`nome`), `questao`, `alternativa` (`letra a..e`), `comentario`, `gabarito_comentario` (renderizado como parágrafo de comentário, com borda no fim do bloco), `citacao_lei`, `formula` (centralizada; `^`→sobrescrito, `_`→subscrito), `tabela` (`cabecalho`+`linhas`), `imagem` (`arquivo`+`legenda` — a LLM costuma emitir `pagina`+`imagem`, e `processador_gemini._resolver_imagens` converte para `arquivo` real usando o `slides.json`; se não resolver, mantém o bloco e avisa), `tempo` (`minuto` — anexa "[nmin]" ao fim do último parágrafo antes do gabarito), `gabarito_fim` (`respostas`). Bloco de tipo desconhecido **não é mais descartado em silêncio**: o `gerador_docx.py` emite `AVISO` no console. Suporte a aulas de exatas (tabelas/fórmulas/imagens) já implementado; equações OMML nativas ainda não — fórmulas vão como texto centralizado.
 
 ## Auditoria — dois modos
 
