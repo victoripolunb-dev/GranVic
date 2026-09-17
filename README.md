@@ -29,14 +29,14 @@ O repositório já inclui a pasta `Modelos Gran Cursos/` (templates e amostras o
 
 1. Clonar: `git clone https://github.com/victoripolunb-dev/GranVic.git`.
 2. Criar venv e instalar deps: `python -m venv .venv` + `.venv\Scripts\activate` + `pip install -r requirements.txt`.
-3. Criar `.env` (a partir de `.env.example`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY` — as chaves **não** versionadas.
+3. Criar `.env` (a partir de `.env.exemplo`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY` — as chaves **não** versionadas.
 4. Rodar o pipeline (`$env:PYTHONIOENCODING="utf-8"` antes).
 
 Templates/amostras já vêm no clone; os materiais gerados (`material_final.docx`) não são versionados.
 
 ## Configuração
 
-- Chaves de API: arquivo `.env` (copie de `.env.example`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY`.
+- Chaves de API: arquivo `.env` (copie de `.env.exemplo`) com `ASSEMBLYAI_API_KEY` e `GEMINI_API_KEY`.
 - Dependências: `pip install -r requirements.txt`.
 - Regras de estilo/recuos lidas de `regras_estilo.json`; diretrizes editoriais em `regras_editoriais.md`.
 
